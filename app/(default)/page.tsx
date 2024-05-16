@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'SyncUp Brasil',
+  description: 'Na SyncUp Brasil, transformamos ideias em soluções digitais personalizadas para impulsionar o seu negócio. Conte conosco para inovar e se destacar no mercado!',
 }
 
 import Hero from '@/components/hero'
