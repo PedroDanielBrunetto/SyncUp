@@ -37,6 +37,12 @@ export default function SignUp() {
                   <input id="tel" type="text" className="form-input w-full text-gray-800" placeholder="Digite seu celular" required />
                 </div>
               </div>
+              <div className="flex flex-wrap -mx-3 mb-4">
+                <div className="w-full px-3">
+                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="tel">Sua ideia <span className="text-red-600">*</span></label>
+                  <textarea className="form-input w-full text-gray-800" placeholder="Digite sua ideia para entendermos melhor" required />
+                </div>
+              </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
                   <button className="btn text-white bg-[#2c29a4] hover:bg-[#232183] w-full">Enviar</button>
