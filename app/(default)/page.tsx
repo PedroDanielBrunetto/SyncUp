@@ -8,6 +8,9 @@ import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export default function Home() {
   return (
